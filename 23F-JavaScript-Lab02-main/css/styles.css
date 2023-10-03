@@ -1,0 +1,32 @@
+html {
+    font-family: sans-serif; /* default font family for the entire document */
+    font-size: 200%; /* increase the base font size */
+    background-color: rgb(0, 0, 0); /* initial background color to black */
+    transition-property: background-color; /* transitions to background color changes */
+    transition-duration: 0.25s; /* transition duration */
+}
+
+body {
+    margin: 0; /* remove default margins so content spans the entire viewport*/
+    padding: 0; /* same as margin */
+    height: 100vh; /* body height to 100% of the viewport height */
+    color: rgb(198, 221, 238); /* text color for the body */
+    transition-property: background-color; /* transitions to background color changes */
+    transition-duration: 0.25s; /* transition duration */
+}
+
+h1 {
+    font-size: 2em; /* heading font size using em */
+}
+
+p {
+    font-size: 1.5em; /* font size of p*/
+    text-align: center; /* placement of the p text*/
+    max-width: 80%; /* max width of p elements to 80% of containing element */
+    margin: 20px 0; /* margin spacing */
+}
+
+label {
+    font-size: 1.2em; /* font size for label element */
+}
+
